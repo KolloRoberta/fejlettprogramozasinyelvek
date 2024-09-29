@@ -15,4 +15,11 @@ bool setBit(int& number, int order);
 double mean(double array[], int numElements);
 double stddev(double array[], int numElements);
 pair<double, double> max2(double array[], int numElements);
+////stringes feladatok////
+int countWords(string text);
+int countWords2(string text);
+string code(string text);
+string decode(string text);
+string capitalizeWords(string text);
+
 #endif //CPP_2024_FUNCTIONS_H
