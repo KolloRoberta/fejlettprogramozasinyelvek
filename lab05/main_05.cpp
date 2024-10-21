@@ -1,6 +1,11 @@
 #include <iostream>
+#include "Quiz.h"
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, Lab_05" << std::endl;
+    Quiz *quiz = new Quiz("Quiz");
+    quiz->loadFromFile("quiz.txt");
+
     return 0;
 }
